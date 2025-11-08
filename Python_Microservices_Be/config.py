@@ -3,7 +3,7 @@
 # LLM Configuration
 OLLAMA_BASE_URL = "http://localhost:11434"  # Default Ollama API URL
 # Replace with the actual name of your custom-trained Indian legal LLM in Ollama
-LLM_MODEL_NAME = "indian-legalbot" # Using llama3 as a stand-in for "LLM-Legal-M"
+LLM_MODEL_NAME = "LLM-Legal-M:latest" # Using llama3 as a stand-in for "LLM-Legal-M"
 
 # Embedding Model Configuration
 EMBEDDING_MODEL_NAME = "BAAI/bge-base-en-v1.5"
